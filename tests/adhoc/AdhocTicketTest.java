@@ -147,19 +147,6 @@ public class AdhocTicketTest {
     }
 
     /**
-     * Test of exit method, of class AdhocTicket.
-     */
-    @Test
-    public void testExit() {
-        System.out.println("exit");
-        long dateTime = 0L;
-        AdhocTicket instance = null;
-        instance.exit(dateTime);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
      * Test of getExitDateTime method, of class AdhocTicket.
      */
     @Test
