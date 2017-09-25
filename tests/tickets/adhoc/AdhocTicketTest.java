@@ -176,12 +176,10 @@ public class AdhocTicketTest {
     @Test
     public void testHasExited() {
         System.out.println("hasExited");
-        AdhocTicket instance = null;
+        AdhocTicket instance = new AdhocTicket("CARP0001", 25, "BAR_19951025");
         boolean expResult = false;
         boolean result = instance.hasExited();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
     
 }
