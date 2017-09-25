@@ -92,12 +92,10 @@ public class AdhocTicketTest {
     @Test
     public void testGetPaidDateTime() {
         System.out.println("getPaidDateTime");
-        AdhocTicket instance = null;
+        AdhocTicket instance = new AdhocTicket("CARP00001", 1, "BS19951025");
         long expResult = 0L;
         long result = instance.getPaidDateTime();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
