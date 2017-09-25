@@ -75,30 +75,15 @@ public class AdhocTicketTest {
     }
 
     /**
-     * Test of enter method, of class AdhocTicket.
-     */
-    @Test
-    public void testEnter() {
-        System.out.println("enter");
-        long entryDateTime = 0L;
-        AdhocTicket instance = null;
-        instance.enter(entryDateTime);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
      * Test of getEntryDateTime method, of class AdhocTicket.
      */
     @Test
     public void testGetEntryDateTime() {
         System.out.println("getEntryDateTime");
-        AdhocTicket instance = null;
+        AdhocTicket instance = new AdhocTicket("CARP0001", 25, "BAR_19951025");;
         long expResult = 0L;
         long result = instance.getEntryDateTime();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
