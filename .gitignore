@@ -4,3 +4,9 @@
 nbproject/
 
 build/
+
+build\.xml
+
+manifest\.mf
+
+tickets/adhoc/\.idea/
