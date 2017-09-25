@@ -1,9 +1,0 @@
-
-\.DS_Store
-/nbproject/private/
-nbproject/
-
-build\.xml
-
-manifest\.mf
-/build/
