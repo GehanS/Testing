@@ -87,20 +87,6 @@ public class AdhocTicketTest {
     }
 
     /**
-     * Test of pay method, of class AdhocTicket.
-     */
-    @Test
-    public void testPay() {
-        System.out.println("pay");
-        long paidDateTime = 0L;
-        float charge = 0.0F;
-        AdhocTicket instance = null;
-        instance.pay(paidDateTime, charge);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
      * Test of getPaidDateTime method, of class AdhocTicket.
      */
     @Test
