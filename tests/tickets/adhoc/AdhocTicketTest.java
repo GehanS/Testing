@@ -68,12 +68,10 @@ public class AdhocTicketTest {
     @Test
     public void testGetTicketNo() {
         System.out.println("getTicketNo");
-        AdhocTicket instance = null;
-        int expResult = 0;
+        AdhocTicket instance = new AdhocTicket("CARP0001", 25, "BAR_19951025");
+        int expResult = 25;
         int result = instance.getTicketNo();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
