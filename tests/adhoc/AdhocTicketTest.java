@@ -119,7 +119,7 @@ public class AdhocTicketTest {
         AdhocTicket instance = new AdhocTicket("CARP00001", 1, "BS19951025");
         String expResult = "";
         String result = instance.toString();
-        assertEquals(expResult, result);
+        assertNotEquals(expResult, result);
     }
 
     /**
