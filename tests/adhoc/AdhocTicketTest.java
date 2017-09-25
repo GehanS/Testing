@@ -140,12 +140,10 @@ public class AdhocTicketTest {
     @Test
     public void testIsPaid() {
         System.out.println("isPaid");
-        AdhocTicket instance = null;
+        AdhocTicket instance = new AdhocTicket("CARP00001", 1, "BS19951025");
         boolean expResult = false;
         boolean result = instance.isPaid();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
