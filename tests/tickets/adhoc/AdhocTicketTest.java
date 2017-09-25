@@ -44,12 +44,10 @@ public class AdhocTicketTest {
     @Test
     public void testGetBarcode() {
         System.out.println("getBarcode");
-        AdhocTicket instance = null;
-        String expResult = "";
+        AdhocTicket instance = new AdhocTicket("", 25, "BAR_19951025");;
+        String expResult = "CARP0001";
         String result = instance.getBarcode();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
