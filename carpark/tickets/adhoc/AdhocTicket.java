@@ -1,4 +1,4 @@
-package bcccp.tickets.adhoc;
+package tickets.adhoc;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package bcccp.tickets.adhoc;
+package tickets.adhoc;
 
 public class AdhocTicketFactory implements IAdhocTicketFactory {
 

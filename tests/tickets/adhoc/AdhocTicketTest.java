@@ -5,7 +5,7 @@
  */
 package tickets.adhoc;
 
-import bcccp.tickets.adhoc.AdhocTicket;
+import tickets.adhoc.AdhocTicket;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -58,12 +58,10 @@ public class AdhocTicketTest {
     @Test
     public void testGetCarparkId() {
         System.out.println("getCarparkId");
-        AdhocTicket instance = null;
-        String expResult = "";
+        AdhocTicket instance = new AdhocTicket("CARP0001", 25, "BAR_19951025");
+        String expResult = "CARP0001";
         String result = instance.getCarparkId();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
