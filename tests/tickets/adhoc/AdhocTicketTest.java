@@ -80,7 +80,7 @@ public class AdhocTicketTest {
     @Test
     public void testGetEntryDateTime() {
         System.out.println("getEntryDateTime");
-        AdhocTicket instance = new AdhocTicket("CARP0001", 25, "BAR_19951025");;
+        AdhocTicket instance = new AdhocTicket("CARP0001", 25, "BAR_19951025");
         long expResult = 0L;
         long result = instance.getEntryDateTime();
         assertEquals(expResult, result);
@@ -94,10 +94,8 @@ public class AdhocTicketTest {
         System.out.println("pay");
         long paidDateTime = 0L;
         float charge = 0.0F;
-        AdhocTicket instance = null;
+        AdhocTicket instance = new AdhocTicket("CARP0001", 25, "BAR_19951025");
         instance.pay(paidDateTime, charge);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
