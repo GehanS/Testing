@@ -1,14 +1,4 @@
 
-import static org.junit.Assert.*;
-
-/**
- * Creating class for intigration testing for methodes in class PaystationController
- * @author Tejas chokshhi
- */
-
- public class PaystationControllerITTest {
-    
-    public PaystationControllerITTest() {
     }
     
     @BeforeClass
